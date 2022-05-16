@@ -75,7 +75,7 @@ function App() {
             </FormGroup>
             <FormGroup className="mb-2 me-sm-2 mb-sm-0">
               <Label className="me-sm-2" for="examplePassword">
-                From
+                To
               </Label>
               <Input id="to" name="to" placeholder="To Commit" type="text"  onChange={handleInput}/>
             </FormGroup>
