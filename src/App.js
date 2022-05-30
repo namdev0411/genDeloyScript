@@ -60,7 +60,7 @@ function App() {
   }
 
   return (
-    <div  style={{marginTop : '5rem'}}>
+    <div  style={{marginTop : '1.5rem'}}>
       <Container>
         <Row>
           <Col xs="4"></Col>
