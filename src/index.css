@@ -15,5 +15,9 @@ code {
     monospace;
 }
 textarea{
-  height: 150px;
+  height: 130px;
+}
+.hide{
+  visibility: hidden;
+  display: none;
 }

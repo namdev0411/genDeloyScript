@@ -14,7 +14,7 @@ import {
 import "bootstrap/dist/css/bootstrap.min.css";
 
 const SHOW = 'bg-primary fade toast d-inline-block m-1 show';
-const HIDE = 'bg-primary fade toast d-inline-block m-1';
+const HIDE = 'bg-primary fade toast d-inline-block m-1 hide';
 
 
 function App() {
