@@ -16,6 +16,7 @@ import {
   DropdownMenu,
 } from "reactstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
+import { useEffect } from "react";
 
 const SHOW = "bg-primary fade toast d-inline-block m-1 show";
 const HIDE = "bg-primary fade toast d-inline-block m-1 hide";
@@ -35,6 +36,10 @@ function App() {
   const [selectedOrg, setSelectedOrg] = useState(ITA_ORG);
   const [dropdownOpen, setDropdownOpen] = useState(false);
 
+
+  useEffect(()=>{
+    genHandel();
+  },[selectedOrg])
 
   //選択リストの表示切り替え
   const toggle = () => {
@@ -80,7 +85,6 @@ function App() {
   const handleChageValuePickList = (e) =>{
     const selectedValue = e.target.innerHTML;
     setSelectedOrg(selectedValue);
-    genHandel();
   }
 
   return (
