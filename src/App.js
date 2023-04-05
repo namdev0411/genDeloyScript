@@ -21,7 +21,7 @@ import { useEffect } from "react";
 const SHOW = "bg-primary fade toast d-inline-block m-1 show";
 const HIDE = "bg-primary fade toast d-inline-block m-1 hide";
 
-const ITA_ORG = 'ita';
+const ITA_ORG = 'ita2';
 const FULL_ORG = 'stfull';
 const EIGYOU2_ORG = 'eigyou2';
 const EIGYOU3_ORG = 'eigyou3';
